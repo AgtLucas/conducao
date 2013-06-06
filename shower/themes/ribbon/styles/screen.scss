@@ -242,6 +242,10 @@ a {
 	// Cover
 	&.cover {
 		background:#000;
+		div {
+			position: relative;
+			top: 60px;
+		}
 		@mixin cover {
 			img, svg, video,
 			object, canvas {
